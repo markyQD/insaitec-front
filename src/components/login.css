@@ -1,0 +1,67 @@
+.background {
+  background: radial-gradient(circle at center, #9acd32, #87cefa, #f08080);
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  background-color: #00131a;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  border-radius: 50%; /* El 50% hace que el borde sea redondo */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  border-radius: 15px 0 15px 0;
+}
+
+.btn {
+  width: 100%;
+  background-color: #a9a9a9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #00131a;
+}
+
+.btn:hover {
+  background-color: #190093;
+  color: white;
+}
+
+.oval-input {
+  border-radius: 15px 0 15px 0; /* 15px para el borde superior izquierdo y 15px para el borde inferior izquierdo */
+}
